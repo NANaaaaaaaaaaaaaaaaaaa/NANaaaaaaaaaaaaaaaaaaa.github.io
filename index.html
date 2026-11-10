@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic homepage of Jing Liu, undergraduate student at South China University of Technology.">
+    <title>Jing Liu | Academic Homepage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="wordmark" href="#profile" aria-label="Jing Liu home">Jing Liu</a>
+        <nav aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="profile" class="hero" aria-labelledby="page-title">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Academic Homepage</p>
+            <h1 id="page-title">Jing Liu</h1>
+            <p class="role">Undergraduate Student</p>
+            <p class="affiliation">South China University of Technology</p>
+          </div>
+          <img class="profile-photo" src="assets/jing-liu.jpg" alt="Portrait of Jing Liu">
+        </div>
+      </section>
+
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container two-column">
+          <h2 id="about-title">About</h2>
+          <div>
+            <p class="lead">I am an undergraduate student at South China University of Technology, interested in research on large language model agents, reinforcement learning, and continual learning.</p>
+            <p>My current research interests include non-parametric policy optimization, Bayesian inference, and experience-driven adaptation of LLM agents.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="research" class="section section-tint" aria-labelledby="research-title">
+        <div class="container two-column">
+          <h2 id="research-title">Research Interests</h2>
+          <ul class="interest-list">
+            <li>Large Language Model Agents</li>
+            <li>Reinforcement Learning</li>
+            <li>Continual Learning</li>
+            <li>Bayesian Learning</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="container two-column">
+          <h2 id="contact-title">Contact</h2>
+          <div class="contact-content">
+            <p>For academic correspondence, please reach me at:</p>
+            <a class="email" href="mailto:PrindallShrier875@outlook.com">PrindallShrier875@outlook.com</a>
+            <p class="github-line">GitHub: <a href="https://github.com/NANaaaaaaaaaaaaaaaaaaa" rel="me">github.com/NANaaaaaaaaaaaaaaaaaaa</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">© <span id="year"></span> Jing Liu</div>
+    </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
